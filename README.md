@@ -14,5 +14,9 @@ I used the amazing release by 0x546F6D for the pinning and unpinning functionali
 + Use resource hacker to add both the included icons in the project's directory.
 + Run the exe and ProxyToggler will install the shortcut to "%appdata%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\"
 
+## Notes
++ Running the program from Doccuments, or Downloads seems to break the icon thats assigned to the shortcut. Please do not run this from either location.
+
 ## References
 - https://github.com/0x546F6D/pttb_-_Pin_To_TaskBar
+- https://www.angusj.com/resourcehacker/
