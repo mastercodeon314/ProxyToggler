@@ -9,5 +9,10 @@ It simply toggles the system proxy for windows on or off, then it changes an ico
 Then the pttb.exe program thats embedded is used to pin and unpin the icon from the taskbar, thus changing the icon from red to green, or vice versa. 
 I used the amazing release by 0x546F6D for the pinning and unpinning functionality for the taskbar.
 
+## Build Process
++ Simply clone and build this project
++ Use resource hacker to add both the included icons in the project's directory.
++ Run the exe and ProxyToggler will install the shortcut to "%appdata%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\"
+
 ## References
 - https://github.com/0x546F6D/pttb_-_Pin_To_TaskBar

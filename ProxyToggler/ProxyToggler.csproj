@@ -85,5 +85,9 @@
   <ItemGroup>
     <None Include="pttb.exe" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="green-circle.ico" />
+    <Content Include="red-circle.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
